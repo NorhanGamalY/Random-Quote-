@@ -1,0 +1,99 @@
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@font-face {
+    font-family: playWrite;
+    src: url(../fonts/PlaywriteHU-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: AncizarSerif;
+    src: url(../fonts/AncizarSerif-ExtraBold.ttf);
+    font-weight: 900;
+}
+@font-face {
+    font-family: dancingScript;
+    src: url(../fonts/DancingScript-Regular.ttf);
+    font-weight: 400;
+}
+/* /////////////////////////// */
+
+h1{
+    font-family: AncizarSerif;
+    font-weight: 900;
+    font-size: 3rem;
+    color: rgb(247, 227, 202);
+    padding: 2rem;
+
+}
+h3{
+    font-family: playWrite;
+    font-weight: 400;
+    color: rgb(62, 48, 30);
+    padding: 0rem 0 2rem;
+    font-size: 1.2rem;
+
+}
+button{
+    font-family: playWrite;
+    font-weight: 400;
+    font-size: 1.25rem;
+        color: rgb(62, 48, 30);
+    background-image: url(../images/button-bg.png) ;
+    background-position: center;
+    background-size: cover;
+    justify-self: center ;
+    align-self:center;
+    transition: all 0.5s;
+
+}
+button:hover{
+    background-image: url(../images/button-hover.png);
+    color: rgb(128, 76, 8);
+}
+.w-60{
+    width: 100%;
+}
+
+@media  (min-width: 768px) {
+ h1{
+    font-size: 5rem;
+  }
+      .w-60{
+    width: 55%;
+}
+    h3{
+     padding: 0rem 2rem 1rem;
+font-size: 1.8rem;
+    }
+}
+  
+#quote-content{
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+}
+.content{
+        background-image: url(../images/text-bg.png);
+        border-radius: 2rem;
+    padding: 1rem;
+    text-align: center;
+    font-family: dancingScript;
+    font-weight: 400;
+    color: rgb(19, 13, 4);
+    font-size: 1.8rem;
+    animation: move 1s;
+
+}
+@keyframes move{
+    0%{ opacity: 0;
+    transform: scale(0.25);}
+    100%{opacity: 1;
+    transform: scale(1);}
+}
