@@ -16,7 +16,12 @@ var quote = [
   "“We accept the love we think we deserve.” <br> ― Stephen Chbosky",
   "“Without music, life would be a mistake.” <br> ― Friedrich Nietzsche",
   "“To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.” <br> ― Ralph Waldo Emerson",
-  "“It is better to be hated for what you are than to be loved for what you are not.” <br> ― Andre Gide"
+  "“It is better to be hated for what you are than to be loved for what you are not.” <br> ― Andre Gide",
+  "“Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.” <br> ― Marilyn Monroe",
+  "“There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.” <br> ― Albert Einstein",
+  "“Good friends, good books, and a sleepy conscience: this is the ideal life.” <br> ― Mark Twain",
+  "“Life is what happens to us while we are making other plans.” <br> ― Allen Saunders",
+  "“I have not failed. I've just found 10,000 ways that won't work.” <br> ― Thomas A. Edison"
 ];
 var lastIndex = -1
 function content(){
